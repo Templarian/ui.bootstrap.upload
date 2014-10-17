@@ -14,10 +14,18 @@ The examples below use the [show-errors](https://github.com/paulyoder/angular-bo
         <label>Upload</label>
         <button name="avatar" class="btn btn-default" upload="/api/avatar" ng-model="profileForm.avatar" required>Import Avatar</button>
     </div>
+    <div ng-messages="form.avatar.$error">
+        <div class="alert alert-danger" ng-message="invalidFile">Incorrect file type.</div>
+        <div class="alert alert-danger" ng-message="otherError">Another errorCode.</div>
+    </div>
 </form>
 ```
 
 ### Controller
+
+```js
+// Controller code
+```
 
 ### Request
 
@@ -34,9 +42,11 @@ This will be assigned to the `ngModel` once it is returned from the server.
 
 #### Error:
 
+The `errorCode` must be camelcase for validation handling. The `error` field is __optional__.
+
 ```json
 {
-    "errorCode": "invalidFile", // Must be camelcase for validation handling.
+    "errorCode": "invalidFile",
     "error": "Incorrect filetype sent to the server."
 }
 ```
