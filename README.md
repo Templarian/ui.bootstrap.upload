@@ -24,7 +24,9 @@ The examples below use the [show-errors](https://github.com/paulyoder/angular-bo
 ### Controller
 
 ```js
-// Controller code
+$scope.profileForm = {
+    avatar: null
+};
 ```
 
 ### Request
