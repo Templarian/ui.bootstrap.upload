@@ -46,7 +46,7 @@ While anything can be sent for the success the error must be sent in the format 
 This will be assigned to the `ngModel` once it is returned from the server.
 
 
-#### Error:
+#### Error
 
 The `errorCode` must be camelcase for validation handling. The `error` field is __optional__.
 
