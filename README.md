@@ -56,3 +56,7 @@ The `errorCode` must be camelcase for validation handling. The `error` field is 
     "error": "Incorrect filetype sent to the server."
 }
 ```
+
+## Thanks
+
+The CSS is taken from Cory LaViska's [blog post](http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/) to complete the clean Bootstrap input file button.
