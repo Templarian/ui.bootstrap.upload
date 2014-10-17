@@ -2,6 +2,8 @@
 
 AngularJS Bootstrap UI Upload button for uploading through a single button click.
 
+![Example](http://templarian.com/files/angularjs_upload.png)
+
 ## Usage
 
 Add a reference to `upload.js`. In your app config add `ui.bootstrap.upload` as a dependency module. Copy and paste `btn-file.css` contents into your own CSS file or include it.
