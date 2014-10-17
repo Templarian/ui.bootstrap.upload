@@ -1,8 +1,10 @@
-# ui.bootstrap.upload
+# upload
 
-AngularJS Bootstrap UI Upload Button
+AngularJS Bootstrap UI Upload button for uploading through a single button click.
 
 ## Usage
+
+Add a reference to `upload.js`. In your app config add `ui.bootstrap.upload` as a dependency module. Copy and paste `btn-file.css` contents into your own CSS file or include it.
 
 The examples below use the [show-errors](https://github.com/paulyoder/angular-bootstrap-show-errors) directive as it greatly reduces markup when validating forms.
 
