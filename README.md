@@ -11,7 +11,7 @@ The examples below use the [show-errors](https://github.com/paulyoder/angular-bo
 ### View
 
 ```html
-<form name="name">
+<form name="form">
     <div class="form-group" show-errors>
         <label>Upload</label>
         <button name="avatar" class="btn btn-default" upload="/api/avatar" ng-model="profileForm.avatar" required>Import Avatar</button>
